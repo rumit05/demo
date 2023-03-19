@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/foodhut.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    
+  <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/qty.css">
+
+  <!-- Bootstrap + FoodHut main styles -->
+
+
+
+    <!-- navbar -->
+  
+ 
+    
+    <title>Login</title>
+</head>
+<body>
+
+  <!-- navbar -->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#book-table">Book-Table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">Login</a>
+      </li>
+    </ul>
+    <a class="navbar-brand m-auto" href="#">
+      <img src="assets/imgs/logo3.png" class="brand-img" alt="">
+      <span class="brand-txt">Eatery</span>
+    </a>
+    <ul class="navbar-nav">
+     
+      <li class="nav-item cart-btn">
+        <a href="cart.php" class="btn btn-primary ml-xl-4 cart-btn"><img src="assets/imgs/cart.png" id="cart" alt=""
+            srcset=""></a>
+        <a href="assets/php/profile.php" class="btn btn-primary ml-xl-4 cart-btn"><img src="assets/imgs/user.png" id="cart" alt=""></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- // login  -->
+
+      <div class="container-fluid form">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+             <img  src="assets/imgs/logo3.png" alt="" class="logo cart-btn">  
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-md-3 col-sm-6 col-xs-10">
+                <form class="py-4 pl-4 pr-4"  target="_self" action="assets/php/verification.php" method="post">
+                    <h1 class="mb-4">Login</h1>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xyz@gmail.com">
+                      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+                      <p class="sm-text"><a href="forget.html">Forget password?</a></p>
+                    </div>
+                    <!-- <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> -->
+                    <button type="submit" class="btn btn-primary " name="login">Login</button>
+                    <p class="sm-text mt-2">Don't have an account?<a href="signup.html"> Sign Up</a></p>
+                  </form>
+            </div>
+            <div class="col"></div>
+        </div>
+      </div>
+
+</body>
+</html>
